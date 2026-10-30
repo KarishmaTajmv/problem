@@ -1,0 +1,6 @@
+# pip-only note: the script uses the JCC `orekit` wrapper (conda-forge: `conda install -c conda-forge orekit=13.1`).
+# See environment.yml for the exact set-up used here.
+numpy
+scipy
+matplotlib
+orekitdata

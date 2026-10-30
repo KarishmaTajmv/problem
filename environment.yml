@@ -1,0 +1,14 @@
+# Orekit here is the JCC-based conda-forge wrapper (`import orekit`), NOT orekit-jpype.
+# (Both can be installed side by side, but only one can be imported per process.)
+name: space-tracker-orekit
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - orekit=13.1
+  - numpy
+  - scipy
+  - matplotlib
+  - pip
+  - pip:
+      - orekitdata        # orekit-data folder (DE-440, EOP, eigen-6s gravity) under site-packages/orekitdata
